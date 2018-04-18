@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 最权威论文抄袭检测系统</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="text-center PT30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_3.html"><span>上一页</span></a></li>
+    <li><a href="#"><span>下一页</span></a></li>
+    <li><a href="#"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">4</span>/<span>4</span>
+            页
+        </div>    </div>
+    <div class="paper-txt P30 PB0">
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="94">94</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.2 TPSN同步协议</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="95">95</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/238.html' target='right' class='g-font-color orange'>TPSN (Timing-sync Protocol for Sensor Networks)同步协议是典型的基于发送者-接受者的双向报文交换同步协议。</a> <span class="g-font-color green">TPSN协议的实现分为两个阶段:</span> <span class="g-font-color green">层次建立阶段和同步阶段。</span><a href='../sentence_detail/241.html' target='right' class='g-font-color red'>在网络部署后，将根节点的层次设定为0，一般选择网关节点作为根节点，根节点广播层次发现分组，层次发现分组包含根节点的ID和层次。</a><a href='../sentence_detail/242.html' target='right' class='g-font-color red'>根节点的广播域内节点接收到这个层次发现分组后，将自己的层次级别设置为0+1，然后广播包含自己ID和层次的层次发现分组。</a> <span class="g-font-color green">直到网络内所有节点获取自己的层次。</span><a href='../sentence_detail/244.html' target='right' class='g-font-color red'>为了减少洪泛广播引起的能量损耗和网络堵塞，节点只回应接收到的第一个层次发现分组。</a><a href='../sentence_detail/245.html' target='right' class='g-font-color red'>在层次结构建立完成后，根节点广播时间同步分组(sync_pkt)。</a><a href='../sentence_detail/246.html' target='right' class='g-font-color red'>第1层节点收到sync_pkt退避一随机时间后，同根节点执行比对同步。</a><a href='../sentence_detail/247.html' target='right' class='g-font-color red'>第 i+1层节点侦听到第 i层节点的交换消息后，等待一个随机时间保证第 i层节点已经完成同步，</a><a href='../sentence_detail/248.html' target='right' class='g-font-color red'>然后与自己在层次发现阶段记录的第 f层的节点执行比对同步。</a><a href='../sentence_detail/249.html' target='right' class='g-font-color red'>这样，每个节点同步至的上一层节点，最终网络中所有节点都达到同步。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="96">96</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/250.html' target='right' class='g-font-color red'>假设节点A为第f层的节点，B为其第/心层的父节点，如图3.2所示，其同步过程为:</a><a href='../sentence_detail/251.html' target='right' class='g-font-color red'>节点 A向父节点 B发送同步请求包并利用本地时钟记录发送时刻 T1，节点 B收到该包后记录接收时刻的本地时间 T2，</a><a href='../sentence_detail/252.html' target='right' class='g-font-color red'>并发送包含有 T3和 T2的同步回应包，节点 A收到父节点 B发送的回应包后利用本地时钟记录接收时刻 T4。</a><a href='../sentence_detail/253.html' target='right' class='g-font-color red'>图中d表示同步消息的传播延时， 表示两个节点之间的时间偏差。</a><a href='../sentence_detail/254.html' target='right' class='g-font-color red'>假设两节点间为对称链路。</a> <span class="g-font-color green">则可得</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="97">97</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/256.html' target='right' class='g-font-color red'>为了消除发送时延、接入时延和接收处理时延的影响，TPSN协议采用链路层(MAC)打时间戳技术。</a><a href='../sentence_detail/257.html' target='right' class='g-font-color red'> TPSN协议实现了全网范围内节点的时间同步，但每个节点的执行同步需要传递3个同步消息，</a><a href='../sentence_detail/258.html' target='right' class='g-font-color red'>协议的同步开销较大，并且同步误差随跳数的增加而增大。</a><a href='../sentence_detail/259.html' target='right' class='g-font-color red'>TPSN协议没有对时钟的频差进行估计，节点的再同步阶段引入了由于频漂引起的时间误差，为了保持较高的时间同步精度节点就需要频繁同步。</a><a href='../sentence_detail/260.html' target='right' class='g-font-color red'>当网络拓扑发送变化(比如新节点加入)时，需要重新建立节点层次，因此协议的鲁棒性低。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="98">98</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.3FTSP时间同步协议</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="99">99</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">FTSP (Flooding Time Synchronization Protocol)协议是典型的基于发送端的单向广播同步机制。</span><a href='../sentence_detail/263.html' target='right' class='g-font-color red'>首先 root节点作为时间基准点，发送同步报文，广播域内节点接收到该同步报文后，根据经验值估算报文传播时延等参数，</a><a href='../sentence_detail/264.html' target='right' class='g-font-color red'>再利用估计延迟调整本地时钟，从而同步至 root节点。</a><a href='../sentence_detail/265.html' target='right' class='g-font-color red'>节点同步后作为新的时间基准点，一环环向外同步，直至达到全网同步至root节点。</a><a href='../sentence_detail/266.html' target='right' class='g-font-color red'> FTSP协议通过 MAC层打时戳、估计补偿中断等待时间和编解码时间以及字节对齐时间等技术，</a><a href='../sentence_detail/267.html' target='right' class='g-font-color red'>消除了除了传播时间外其他不确定时延的影响，同时对时钟漂移和偏差进行了线性回归分析，</a><a href='../sentence_detail/268.html' target='right' class='g-font-color red'>补偿了时钟漂移带来的误差，同步精度达到了微秒级。</a><a href='../sentence_detail/269.html' target='right' class='g-font-color red'>FTSP协议还考虑了 root节点的选举机制、root节点失效问题。</a><a href='../sentence_detail/270.html' target='right' class='g-font-color red'>节点如果超过设定数目的同步周期仍然未收到同步报文就宣布自己是root节点。</a><a href='../sentence_detail/271.html' target='right' class='g-font-color red'>当多个节点同时宣布自己为root节点时，节点标识ID最小的节点当选为root节点。</a><a href='../sentence_detail/272.html' target='right' class='g-font-color red'>这样保证同步协议在网络拓扑结构变化和链路或节点的失效时的健壮性。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="100">100</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.4 mini-sync 和 tiny-sync 同步算法</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="101">101</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/274.html' target='right' class='g-font-color red'> mini- sync和 tiny- sync是两个轻量级的时间同步算法，它们假设节点时钟晶振频率是稳定的，</a><a href='../sentence_detail/275.html' target='right' class='g-font-color red'>节点的时钟可以表示为理想时间 t单调非递减线性函数。</a><a href='../sentence_detail/276.html' target='right' class='g-font-color red'>利用ai表示节点i的时钟频偏， bi表示节点/的相偏，则有以下时钟模型:</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="102">102</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/277.html' target='right' class='g-font-color red'>利用a12表示两个节点时钟的相对频偏， b12表示两个节点时钟的相对相偏，则可以推导出两个节点的时钟关系:</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="103">103</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/278.html' target='right' class='g-font-color red'>mini-sync和tiny-syne算法釆用双向报文交换同步机制。</a><a href='../sentence_detail/279.html' target='right' class='g-font-color orange'>如上图所示，节点1向节点2发送一个包含发送时刻t0探测报文(probe_pkt)， t0为利用节点1的本地时钟记录的发送时刻。</a><a href='../sentence_detail/280.html' target='right' class='g-font-color red'>节点2接收到 probe_ pkt后，立即返回包含节点2时钟记录下接收 probe_ pkt的时刻 tb的消息给节点1，</a><a href='../sentence_detail/281.html' target='right' class='g-font-color red'>节点1收到消息后利用本地时钟打上一个时标 tr这样就得到一个包含三个时标的数据点，</a> <span class="g-font-color green">显然三个时标满足以下关系:</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="104">104</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">由上式可以确定参数a12和b12的取值范围。</span><a href='../sentence_detail/284.html' target='right' class='g-font-color red'>经过多次探测报文交换可以获得一组数据点，通过求这些数据点约束下的线性规划最优解可以得出a12和b12的最精确值。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="105">105</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/285.html' target='right' class='g-font-color red'>假设节点时钟漂移和偏移恒定， mini- sync和 tiny- sync同步算法仅需要很少的存储容量和处理资源，</a><a href='../sentence_detail/286.html' target='right' class='g-font-color red'>非常适合资源受限的无线传感器网络，但低成本的无线节点一般都配置较低稳定度的晶振，</a> <span class="g-font-color green">很难保证时钟漂移和偏移恒定。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="106">106</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.5TPSN协议</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="107">107</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">传感器网络时间同步协议( Timing- sync protocol for Sensor Networks)类似于传统网络的 NTP时间同步协议，</span><a href='../sentence_detail/290.html' target='right' class='g-font-color red'>可以提供传感器网络全网范围内节点间的时间同步”协议实现的前提条件是:</a><a href='../sentence_detail/291.html' target='right' class='g-font-color red'>在网络中有一个可以与外界时间精确同步的节点称为根节点，根节点可装配如GPS接收机的复杂硬件部件，并作为整个网络系统的时钟源节点。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="108">108</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.6LTS算法</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="109">109</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/293.html' target='right' class='g-font-color orange'>有些传感器网络应用对于时间同步的精度要求并不是很高，也不需要整个网络的所有节点都达到时间同步，</a><a href='../sentence_detail/294.html' target='right' class='g-font-color red'>这样就可以使用简单的轻量的时间同步机制，通过减少时间同步的频率和参与同步的节点数目，</a><a href='../sentence_detail/295.html' target='right' class='g-font-color red'>在满足同步精度要求的同时降低节点的通信和计算开销，减少网络能量的消耗轻量级生成树同步算法（ LTS，</a> <span class="g-font-color green"> Lightweight Tree- based Synchronization)就适合这种传感器网络应用。</span><a href='../sentence_detail/297.html' target='right' class='g-font-color red'>LTS算法具有鲁棒性和自配置的特点，特别是在出现节点失效!</a><a href='../sentence_detail/298.html' target='right' class='g-font-color orange'>动态调整信道和节点移动情况下， LTS算法仍能够正常工作”在分析单跳节点对之间基于发送一接收方式的时间同步机制基础上，</a><a href='../sentence_detail/299.html' target='right' class='g-font-color red'> J. Greunen和 J. Rabaey提出了集中式和分布式两类 LTS多跳时间同步算法。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="110">110</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4.4.5时间同步算法性能比较</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="111">111</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4 本章小结</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="112">112</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">本章介绍了基于北斗和 GNSS的授时相关内容，首先从时间同步的必要性、互联网时间同步无线传感网时间同步等方面介绍了时间同步的方法，</span> <span class="g-font-color green">同时对时间同步的算法性能给出了比较，为后面实验的设计和实现提供了必要的基础。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+            </div>
+    <div class="text-center PB30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_3.html"><span>上一页</span></a></li>
+    <li><a href="#"><span>下一页</span></a></li>
+    <li><a href="#"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">4</span>/<span>4</span>
+            页
+        </div>    </div>
+    <div style="text-align: center;padding-top:30px">
+        <a href="http://www.118qikan.com/?f=pp_report" target="_blank"><img src="http://file.paperpass.com/images/fabiao.jpg"/></a></div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2018 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/html" template="section">
+    <div class="text-right">
+        <div class="modifyTxt-notice">
+            修改完本段落之后，点击“临时保存”，之后可在上方导航“修改文档”页面中查看修改后的内容
+        </div>
+        <textarea class="form-control resize-none" rows="4" tpl-section="textarea"></textarea>
+        <div class="button-wrap MT10">
+            <button type="button" class="g-btn g-btn-default g-btn-sm red" tpl-section-cancle="btn">取消保存</button>
+            <button type="button" class="g-btn g-btn-default g-btn-sm" tpl-section-save="btn">临时保存</button>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    Report.report_id = '5ad73f37ebebec514';
+</script>
+<script type="text/javascript">
+    (function(System,$){
+
+        var sectionEdit = System.Paper.sectionEdit();
+        var sectionSave = System.Paper.sectionSave(null);
+        $(function(){
+            $(document).on('click','[tpl-section=btn]',function(){
+                sectionEdit.call(this);
+            });
+            $(document).on('click','[tpl-section-save=btn]',function(){
+                sectionSave.call(this);
+
+            });
+            $(document).on('click','[tpl-section-cancle=btn]',function(){
+                var $warp = $(this).closest('[tpl-section="warp"]');
+                $warp.find('[tpl-section="box"]').html('');
+            });
+
+
+        });
+    })(Report,jQuery);
+
+</script>
+</html>
