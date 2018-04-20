@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>详细报告语句详情</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <style type="text/css">
+        .content-tips .paper-section{margin-bottom:0;min-width:450px;}
+    </style>
+</head>
+<body>
+<span id="gototop"></span>
+<div>
+    <div class="paper-txt P30">
+        <div class="paper-section" style="margin-bottom:0;">
+            <div class="font-bold MT5">
+                该句相似度：<span class="g-font-color red similarNum">100%</span>
+            </div>
+            <div class="MT30">
+                <p class="font-bold">您的语句：</p>
+                <span>源和目的 MAC地址，然后填充 MAC地址表，注意一个细节，我们需要根据交换机编号和源地址来指定接口，</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="tab-A">
+            <ul class="tab-A-ul clearfix" tab-a="ul">
+                <li class="active" data-id="学术期刊,学位论文,学术会议,书籍数据,互联网,自建库,all">
+                    <span class="tab-text">综合</span>
+                    <span class="tab-superscript">10</span>
+                </li>
+                <li data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                    <span class="tab-text">本地库</span>
+                    <span class="tab-superscript">9</span>
+                </li>
+                <li data-id="互联网,5">
+                    <span class="tab-text">互联网</span>
+                    <span class="tab-superscript">1</span>
+                </li>
+            </ul>
+        </div>
+        <div class="none" tab="section" data-id="tab">
+            <div class="tab-B clearfix">
+                <div class="paper-section P30 PB0 clearfix">
+                    <span class="tab-B-span pull-left">本地库</span>
+                    <ul class="tab-B-ul pull-left clearfix" tab-b="ul">
+                        <li class="active" data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                            <span class="tab-text">全部</span>
+                            <span class="tab-superscript">9</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术期刊,1">
+                            <span class="tab-text">期刊</span>
+                            <span class="tab-superscript">4</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学位论文,2">
+                            <span class="tab-text">学位</span>
+                            <span class="tab-superscript">2</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术会议,3">
+                            <span class="tab-text">会议</span>
+                            <span class="tab-superscript">1</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,书籍数据,4">
+                            <span class="tab-text">图书</span>
+                            <span class="tab-superscript">2</span>
+                                                    </li>
+                                            </ul>
+                </div>
+                <div class="g-line-row MT30 tab-pane-line"></div>
+            </div>
+        </div>
+        <div class="content-tips">
+            <div class="tab-content none" tab="section" data-id="1">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在期刊库共找出相似内容：<span>4</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content none" tab="section" data-id="2">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在学位库共找出相似内容：<span>2</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="3">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在会议库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="4">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在图书库共找出相似内容：<span>2</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="5">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在互联网库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <!-- 自建库 -->
+            <div class="tab-content none" tab="section" data-id="6">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在自建库中没有找到与此句话相似的内容                    <p>
+                    <div class="pull-right">
+                                            </div>
+                </div>
+            </div>
+                        <div class="tab-content" tab="section" data-id="all">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库和互联网库共找出相似内容：<span>10</span>个
+                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="local">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库共找出相似内容：<span>9</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">1</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color red similarNum">100%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color red"><span class="g-underline-text">源</span><span class="g-underline-text">和</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span>，<span class="g-underline-text">然后</span><span class="g-underline-text">填充</span> MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span><span class="g-underline-text">表</span>，<span class="g-underline-text">注意</span><span class="g-underline-text">一个</span><span class="g-underline-text">细节</span>，<span class="g-underline-text">我们</span><span class="g-underline-text">需要</span><span class="g-underline-text">根据</span><span class="g-underline-text">交换</span><span class="g-underline-text">机</span><span class="g-underline-text">编号</span><span class="g-underline-text">和</span><span class="g-underline-text">源</span><span class="g-underline-text">地<span class="g-underline-text">址</span></span><span class="g-underline-text">来</span><span class="g-underline-text">指定</span><span class="g-underline-text">接口</span>，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">源</span><span class="g-underline-text">和</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span>，<span class="g-underline-text">然后</span><span class="g-underline-text">填充</span>MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span><span class="g-underline-text">表</span>，<span class="g-underline-text">注意</span><span class="g-underline-text">一个</span><span class="g-underline-text">细节</span>，<span class="g-underline-text">我们</span><span class="g-underline-text">需要</span><span class="g-underline-text">根据</span><span class="g-underline-text">交换</span><span class="g-underline-text">机</span><span class="g-underline-text">编号</span><span class="g-underline-text">和</span><span class="g-underline-text">源</span><span class="g-underline-text">地<span class="g-underline-text">址</span></span><span class="g-underline-text">来</span><span class="g-underline-text">指定</span><span class="g-underline-text">接口</span>，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            请设置OFP_NO_BUFFER。instructions([]):交换机要执行的指令列表。指定好所有的值最后就调用send_msg来发送流表项。_packet_in_handler函数要完成的功能比较多，首先它需要获取进入的接口，<span class="g-font-color green">源和目的MAC地址，然后填充MAC地址表，注意一个细节，我们需要根据交换机编号和源地址来指定接口，</span>因为同一个接口可能会对应不同的MAC地址。����然后做一下判断，如果MAC地址表里面没有目的MAC地址                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>RYU控制器代码解析-简单交换机 - CSDN博客<br/><a href='https://blog.csdn.net/manml/article/details/78059433' target='_blank'>https://blog.csdn.net/manml/article/details/78059433</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">2</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">44%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange"><span class="g-underline-text">源</span><span class="g-underline-text">和</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span>，<span class="g-underline-text">然后</span>填充 MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>编号<span class="g-underline-text">和</span><span class="g-underline-text">源</span><span class="g-underline-text">地<span class="g-underline-text">址</span></span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">址</span><span class="g-underline-text">和</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span>，<span class="g-underline-text">然后</span>与<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>内部<span class="g-underline-text">的</span>查找<span class="g-underline-text">表</span>进行比较，若数据包<span class="g-underline-text">的</span><span class="g-underline-text">源</span>MAC<span class="g-underline-text">地<span class="g-underline-text">址</span></span>不在查找<span class="g-underline-text">表</span>中，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            ，算法简单，便于ASIC实现，因此转发速度极高，在lOOMbit/s和Gbit/s通信链路上能做到线速转发。2．5交换机的工作原理以太网交换机的工作原理很简单，它检测从端口来的数据包的源MAC地<span class="g-font-color green">址和目的MAC地址，然后与交换机内部的查找表进行比较，若数据包的源MAC地址不在查找表中，</span>则将该地址加入查找表，并将数据包发送给相应的目的端口。交换机是采用帧交换方式。本设计支持两                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于组合导航系统应用的网络交换机设计研究》<br><b>作者：</b>李秀茹<br><b>分类号：</b>TN915.05<br><b>学科专业：</b>检测技术与自动化装置<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王景刚<br><b>学位授予单位：</b>哈尔滨工程大学<br><b>学位年度：</b>2008<br><b>关键词：</b>组合导航系统 以太网 操控系统 开放式系统 网络交换机
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">3</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange"><span class="g-underline-text">源</span>和<span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span>表，注意一个细节，我们需要根据<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>编号和<span class="g-underline-text">源</span><span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">同样首先进行<span class="g-underline-text">源</span>MAC<span class="g-underline-text">地址</span>学习，<span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>查找由于此时<span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>为<span class="g-underline-text">交换</span><span class="g-underline-text">机</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>，这种情况下</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            、MAC地址、与交换机直接相连的端口号等信息设置到交换芯片的三层硬件表项中。站点A收到这个ARP回复报文之后，进行目的MAC地址替换，把要发给C的包首先发给交换机。交换机收到这个包以后，<span class="g-font-color green">同样首先进行源MAC地址学习，目的MAC地址查找由于此时目的MAC地址为交换机的MAC地址，这种情况下</span>将会把该报文送到交换芯片的三层引擎处理。一般来说，三层引擎会有两个表，一个是主机路由表，这个表是                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《三层交换技术探究》<br><b>作者：</b>郭春光<br><b>作者单位：</b>河南工业和信息化职业学院<br><b>参考文献：</b>2篇<br><b>页码：</b>P270—P270,279<br><b>页数：</b>2页<br><b>期刊名称：</b>《魅力中国》<br><b>出版时间：</b>2017年6期<br><b>ISSN：</b>1673-0992<br><b>关键词：</b>三层交换技术 探究
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="书籍数据">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">4</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源<span class="g-underline-text">和</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>编号<span class="g-underline-text">和</span>源<span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">帧<span class="g-underline-text">的</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>已经存在于MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>中，并<span class="g-underline-text">和</span>E2端口相关联，<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>将此帧直接向E</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            的工作站都发送过数据帧后，交换机学习到了所有工作站的MAC地址与端口的对应关系并记录到MAC地址表中。2．转发/过滤当工作站A再次给工作站C发送了一个单播数据帧后，交换机检查到了此<span class="g-font-color green">帧的目的MAC地址已经存在于MAC地址表中，并和E2端口相关联，交换机将此帧直接向E</span>2端口转发，即做转发决定，如图6-4所示；但对其他的端口并不转发此数据帧，即做                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（书籍数据）：</p>
+                            <div class="local-source-detail">
+                                <b>章节：</b>《6.1.4 以太网交换机的功能》<br><b>书名：</b>《宽带接入网设备安装与维护》<br><b>作者：</b>杜文龙, 宋祥贤<br><b>出版社：</b>西安电子科技大学出版社<br><b>出版时间：</b>2010-10-01<br><b>ISBN：</b>978-7-5606-2457-0<br><b>摘要：</b>本书是基于工作过程的理念编写的教材，共分为10章，以ZXDSL9210设备为实例，详细讲解了宽带接入网的网络总体设计、宽带接入设备的选择与安装、宽带接入设备的基本配置与业务配置、宽带接入设备的维护与故障处理等内容。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">5</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">42%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源和目<span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>编号和源<span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span><span class="g-underline-text">交换</span><span class="g-underline-text">机</span>学习到<span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">交换</span><span class="g-underline-text">机</span><span class="g-underline-text">的</span>端口号嘲0<span class="g-underline-text">交换</span>图4．1<span class="g-underline-text">交换</span><span class="g-underline-text">机</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>黛</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            4．1．1MACFlooding攻击的原理与危害交换机内有一张动态的MAC地址表，它记录了交换机学习到的其他设备的MAC地址所对应的端口掣421，如表4．1及图4．1所示。表4．1交换机<span class="g-font-color green">的MAC地址表交换机学习到的MAC地址交换机的端口号嘲0交换图4．1交换机的MAC地址表黛</span>P∞万方数据硕士学位论文MAC地址表一般交换机在进行源MAC地址的学习时而自动生成的。当交换机收到一个数据                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《天安数码城园区网络的规划与设计》<br><b>作者：</b>谭志勇<br><b>分类号：</b>TN915.02<br><b>学科专业：</b>计算机技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>赵甫哲<br><b>学位授予单位：</b>华中师范大学<br><b>学位年度：</b>2016<br><b>关键词：</b>通信网络 虚拟局域网 数据传输 网络架构
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">6</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">42%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源和<span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意<span class="g-underline-text">一个</span>细节，我们需要根据<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>编号和源<span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>进行转发<span class="g-underline-text">的</span>，<span class="g-underline-text">交换</span><span class="g-underline-text">机</span>中存在<span class="g-underline-text">一个</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>记录网络中MAC<span class="g-underline-text">地址</span>(AMc<span class="g-underline-text">地址</span>数量与</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            交换机通过对MAC地址的学习和MAC地址表的维护更新机制来实现。本文从交换机MAC地址表的产生与管理角度详细阐述交换机对数据帧单点转发的实现。2MA-C地址表交换机转发数据帧是根据数据帧的<span class="g-font-color green">目的MAC地址进行转发的，交换机中存在一个MAC地址表，MAC地址表记录网络中MAC地址(AMc地址数量与</span>交换机缓存有关)与端口的对应信息，某一数据帧需要转发时，交换机根据该数据帧的目的MAC地址查找                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《交换机MAC地址表的产生与管理》<br><b>作者：</b>马伟强<br><b>作者单位：</b>河南化工职业学院,河南郑州,450042<br><b>参考文献：</b>4篇<br><b>页码：</b>P67—P69<br><b>页数：</b>3页<br><b>分类号：</b>TP39<br><b>机标分类号：</b>TP3 TN9<br><b>期刊名称：</b>《计算机与网络》<br><b>出版时间：</b>2012年9期<br><b>ISSN：</b>1008-1739<br><b>关键词：</b>交换机 MAC地址 端口 老化时间 MAC地址表<br><b>摘要：</b>交换机与集线器相比，交换机可以实现数据的单点转发，从而提高了网络传输速率和网络可利用带宽，交换机的单点转发主要依靠交换机对MC地址表的维护和管理。本文从交换机MC地址表的产生与管理角度，详细阐述交换机利用MC地址表完成单点转发的实现。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术会议">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">7</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源和<span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要<span class="g-underline-text">根据</span>交换<span class="g-underline-text">机</span>编号和源<span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">维护一张MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，并<span class="g-underline-text">根据</span>MAC<span class="g-underline-text">地址</span>，将数据发送至<span class="g-underline-text">目</span><span class="g-underline-text">的</span>计算<span class="g-underline-text">机</span>。绑定MAC与IP<span class="g-underline-text">地址</span><span class="g-underline-text">的</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span>：IP</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            机与另一台IP地址的计算机通讯后，在ARP缓存中会保留相应的MAC地址。所以，下次和同一个IP地址的计算机通讯，将不再查询MAC地址。而是直接引用缓存中的MAC地址。在交换式网络中．交换机也<span class="g-font-color green">维护一张MAC地址表，并根据MAC地址，将数据发送至目的计算机。绑定MAC与IP地址的目的：IP</span>地址的修改非常容易，而MAC地址存储在网卡的EEPROM中。而且网卡的MAC地址是唯一确定的。因此，为了防止内部                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术会议）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《浅谈网络安全——IP地址与MAC地址绑定分析》<br><b>作者：</b>蔡杰<br><b>作者单位：</b>铁通天津分公司  300142<br><b>会议名称：</b>第五届天津青年科技论坛<br><b>主办单位：</b>天津市科协<br><b>会议时间：</b>2006-03-01<br><b>会议地点：</b>天津<br><b>关键词：</b>网络安全 IP地址 MAC地址 绑定分析
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">8</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange"><span class="g-underline-text">源</span>和目<span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据交换<span class="g-underline-text">机</span>编号和<span class="g-underline-text">源</span><span class="g-underline-text">地址</span><span class="g-underline-text">来</span>指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">数据帧<span class="g-underline-text">的</span><span class="g-underline-text">源</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">来</span>形成MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span><span class="g-underline-text">的</span>，如果A计算<span class="g-underline-text">机</span>利用技术构造数据帧<span class="g-underline-text">的</span><span class="g-underline-text">源</span>MAC<span class="g-underline-text">地址</span>为B计算<span class="g-underline-text">机</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            所以数据帧被直接转发到4端口上。这样数据不再被转发到其它接I=l了。3交换式以太网MAC：I=也JlF学习功能的缺陷3．1构造数据帧对终端的影响，由于交换机是根据相应端口接收的<span class="g-font-color green">数据帧的源MAC地址来形成MAC地址表的，如果A计算机利用技术构造数据帧的源MAC地址为B计算机</span>的MAC地址，交换机就会认为B计算机已经被转移连接到了l端口上。如果这样的数据帧只发送一次，                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《交换式以太网MAC地址学习功能的安全性研究》<br><b>作者：</b>李明革 迟恩宇 钟玉珍 姜惠民<br><b>作者单位：</b>长春职业技术学院,长春,130033<br><b>参考文献：</b>5篇<br><b>页码：</b>P28—P29<br><b>页数：</b>2页<br><b>分类号：</b>TP312<br><b>机标分类号：</b>TP3 TP2<br><b>期刊名称：</b>《科技创新导报》<br><b>出版时间：</b>2007年36期<br><b>ISSN：</b>1673-0534<br><b>关键词：</b>交换机 以太网 MAC地址学习 MAC地址绑定 VLAN<br><b>摘要：</b>利用Sniffer pro对局域网采用的交换机进行长期大量的测试与分析,发现其MAC地址学习功能所引起的安全性缺陷,这一缺陷如果被病毒或攻击者利用可能导致全部局域网内的计算机无法访问外部网络.提出采用现有的技术对这一缺陷的补救措施,同时,也提出了对MAC地址学习功能的改进设计方法.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">9</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源和<span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，<span class="g-underline-text">然后</span>填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据交换机编号和源<span class="g-underline-text">地址</span><span class="g-underline-text">来</span>指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">数据帧<span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>，<span class="g-underline-text">来</span>查本地<span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，<span class="g-underline-text">然后</span>作出合适<span class="g-underline-text">的</span>转发决定。这些MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>一般是通过</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            加强接入交换机对用户非法侵扰和攻击网络的防范。1二层交换机的攻击网络攻击对二层交换机产生严重影响的有：(1)MAC/络设备管理安全隐患。网络依赖MAC地址保证数据的正常转发，通过分析接收到的<span class="g-font-color green">数据帧目的MAC地址，来查本地的MAC地址表，然后作出合适的转发决定。这些MAC地址表一般是通过</span>学习获取的，交换机在接收到一个数据帧后，有一个学习的过程，该过程是这样的：(1)提取数据                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《二层交换机的攻击分析与防范技术的研究》<br><b>作者：</b>蔡昭权<br><b>作者单位：</b>惠州学院网络中心,广东,516015<br><b>参考文献：</b>4篇<br><b>被引次数：</b>2次（统计时间：2015年8月）<br><b>页码：</b>P31—P33<br><b>页数：</b>3页<br><b>分类号：</b>TP3<br><b>机标分类号：</b>TP3 TN9<br><b>期刊名称：</b>《网络安全技术与应用》<br><b>出版时间：</b>2005年7期<br><b>ISSN：</b>1009-6833<br><b>关键词：</b>OSI 二层交换机 攻击 防范<br><b>摘要：</b>本文通过OSI模型的第二层的特点,分析了二层交换机存在的安全隐患,提出了相应的解决办法.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="书籍数据">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">10</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">源和<span class="g-underline-text">目</span><span class="g-underline-text">的</span> MAC<span class="g-underline-text">地址</span>，然后填充 MAC<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>，注意一个细节，我们需要根据交换机编号和源<span class="g-underline-text">地址</span>来指定接口，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">中<span class="g-underline-text">的</span><span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>，并在<span class="g-underline-text">地址</span><span class="g-underline-text">表</span>中查找相应<span class="g-underline-text">的</span>端口，若<span class="g-underline-text">表</span>中存在与此<span class="g-underline-text">目</span><span class="g-underline-text">的</span>MAC<span class="g-underline-text">地址</span>对应<span class="g-underline-text">的</span>端口，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            设备，它通过维护一张MAC地址到端口的映射表来确定数据包的转发。当交换机从某个端口收到一个数据包时，它先读取包头中的源MAC地址，从而获知源MAC地址的机器是连在哪个端口上。接着读取包头<span class="g-font-color green">中的目的MAC地址，并在地址表中查找相应的端口，若表中存在与此目的MAC地址对应的端口，</span>则把数据包直接复制到相应端口上，若表中找不到相应的端口则把数据包广播到所有端口上，当目                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（书籍数据）：</p>
+                            <div class="local-source-detail">
+                                <b>章节：</b>《第3章 交换机的配置》<br><b>书名：</b>《计算机网络实验教程》<br><b>作者：</b>姜枫<br><b>出版社：</b>清华大学出版社;北京交通大学出版社<br><b>出版时间：</b>2010-03-01<br><b>ISBN：</b>978-7-5121-0062-6<br><b>摘要：</b>本书分为10个章节，实验内容涉及计算机组网实验、常见网络工具的使用、交换机的配置、路由器的配置、网络设备的安全配置与应用、DNS与DHCP服务器的配置、WWW与FTP服务器的配置、综合组网、网络管理及文件系统操作管理等。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            
+        <!--语句修改建议-->
+        <span id="modify_suggest"></span>
+        <div id="advice">
+            <div class="g-line-row"></div>
+            <div class="paper-txt P30 PB0">
+                <div class="paper-section">
+                    <p class="g-font-s16 font-bold g-font-color green MB10">该句修改建议（重度相似，请全面修改）</p>
+                    <span class="g-font-color green"><span class="g-font-color red">源</span>和<span class="g-font-color red">目</span>的 MAC<span class="g-font-color red">地<span class="g-font-color red">址</span></span>，然后<span class="g-font-color red">填充</span> MAC<span class="g-font-color red">地<span class="g-font-color red">址</span></span><span class="g-font-color red">表</span>，<span class="g-font-color red">注意</span><span class="g-font-color red">一个</span><span class="g-font-color red">细节</span>，我们<span class="g-font-color red">需要</span>根据<span class="g-font-color red">交换</span><span class="g-font-color red">机</span><span class="g-font-color red">编号</span>和<span class="g-font-color red">源</span><span class="g-font-color red">地<span class="g-font-color red">址</span></span>来<span class="g-font-color red">指定</span><span class="g-font-color red">接口</span>，</span>
+                    <div class="MT10">
+                        <p class="font-bold">同义词：</p>
+                        <ul class="local-source-detail">
+                            <li class="g-font-color green"><span class="g-font-color red">编号：</span>号码 号子 码子 数码</li><li class="g-font-color green"><span class="g-font-color red">地址：</span>地点 所在</li><li class="g-font-color green"><span class="g-font-color red">交换：</span>互换  交流</li><li class="g-font-color green"><span class="g-font-color red">指定：</span>指名 点名</li><li class="g-font-color green"><span class="g-font-color red">细节：</span>底细</li><li class="g-font-color green"><span class="g-font-color red">需要：</span>必要  须要</li><li class="g-font-color green"><span class="g-font-color red">填充：</span>加添  添补</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top text-center">
+        <a href="#gototop" class="font-bold g-font-color green">回到顶部</a>
+    </div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_black">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2018 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    (function(System,$){
+        var tab = System.Paper.tab();
+        var $advice = null;
+        function run(){
+            var i = 0;
+            $advice.show();
+            tab.call(this,{callback:function(){
+                var $num = $(this).find('.chapter-num');
+                if($num.length>0){
+                    i++;
+                    $num.text(i);
+                }
+            }});
+            //没有内容时同时不显示该句修改建议
+            if(0 === i){$advice.hide();}
+        }
+        $(function(){
+            $advice = $('#advice');
+            $(document).on('click','[tab-a="ul"] li',function(){
+                run.call(this);
+            });
+            $(document).on('click','[tab-b="ul"] li',function(){
+                run.call(this);
+            });
+        });
+    })(Report,jQuery);
+
+
+</script>
+</html>
