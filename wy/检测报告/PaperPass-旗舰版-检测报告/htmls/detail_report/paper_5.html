@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>PaperPass 最权威论文抄袭检测系统</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+    <div class="text-center PT30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_4.html"><span>上一页</span></a></li>
+    <li><a href="paper_6.html"><span>下一页</span></a></li>
+    <li><a href="paper_12.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">5</span>/<span>12</span>
+            页
+        </div>    </div>
+    <div class="paper-txt P30 PB0">
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="150">150</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">过滤主要是负责URL的过滤，它的任务就是对URL进行主题相关性评价，使得那些和主题相关的链接保留下来，从而舍弃无用的链接。</span> <span class="g-font-color green">要实现URL的过滤功能，依靠用户的过滤设置和对目标网页的链接结构描述。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="151">151</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">过滤设置包括所要下载的文件的类型、大小等，文件类型主要有图形文件（比如 jpg、 gif、 png等</span> <span class="g-font-color green">）、文本文件（如 html、 txt、 asp等）、可运行文件（如 exe、 com等）、压缩文件（</span> <span class="g-font-color green">如 zip、 rar等）、音频文件（ mp3、 wav、 wma等）、视频文件（ avi、 mov、 wmv等</span> <span class="g-font-color green">）。</span> <span class="g-font-color green">过滤还包括URL的深度等参数。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="152">152</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">对目标网页的链接结构描述，是指指定所要查找的相关主题网页的链接所具有的共同结构，通常也就是他们都有什么样的链接前缀。</span> <span class="g-font-color green">这样的策略是基于如下的思想：</span> <span class="g-font-color green">相同主题的网页通常都有着很大的相似性，包括页面结构及连接结构，他们通常都是从同</span> <span class="g-font-color green">一个祖先链接（比如指向某个目录页面的链接）通过一层或多层链接而来的[16]。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="153">153</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">经过了过滤而得到的URL都放在一个优先队列中，该优先队列按页面入度值进行排序。</span><a href='../sentence_detail/418.html' target='right' class='g-font-color orange'>然后调度模块会给队列中的每个URL分配线程，进行抓取。</a>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="154">154</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.2.3.2 调度和爬取模块</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="155">155</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/420.html' target='right' class='g-font-color orange'>调度模块是爬虫的控制器，负责分配线程。</a> <span class="g-font-color green">系统同时开启的线程数由用户指定，系统根据此设定开启指定数目的线程。</span> <span class="g-font-color green">对由过滤模块得到的URL候选队列中的每一个URL，调度模块分配给它一个线程，启动爬虫抓取模块进行抓取。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="156">156</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/423.html' target='right' class='g-font-color orange'>调度模块因为是对线程的管理，所以它要实现数据之间的同步和共享数据的安全问题。</a> <span class="g-font-color green">比如URL候选队列，每个线程都要访问它来获得一个候选URL进行抓取和解析等，如果一个URL被好几个线程同时获得，会导致对页面的重复提取。</span> <span class="g-font-color green">所以共享数据的共享和同步很重要，保护好这些共享数据，才能避免重复工作，数据冲突和其它因同步引起的问题。</span> <span class="g-font-color green">多线程是比较复杂的编程问题，调度模块为了实现多线程，应提供一个线程池，对每个请求分配一个线程，</span> <span class="g-font-color green">对共享资源以互斥的方式操作，并避免死锁等问题[17]。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="157">157</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/428.html' target='right' class='g-font-color red'>爬取模块根据调度模块的请求，采集一个网页，并更新网页资源库，同时抽取该网页的链接给过滤模块[18]。</a> <span class="g-font-color green">它的功能比较简单，它主要负责下载网页，网页下载后，要传给解析模块进行解析，</span> <span class="g-font-color green">然后根据用户的指定（存储与否），来决定是否存储在硬盘里。</span> <span class="g-font-color green">在网页下载存储过程中，需要解决的一个问题即是编码问题，不同的网页有不同的编码，</span> <span class="g-font-color green">所以对下载的网页获取它的编码，以便在后续的页面解析中产生乱码问题等。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="158">158</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.2.3.3 HTML解析模块</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="159">159</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/434.html' target='right' class='g-font-color orange'>解析模块是爬虫核心模块，它需要对爬取模块爬取的内容进行解析。</a><a href='../sentence_detail/435.html' target='right' class='g-font-color orange'>解析模块主要有词法分析器和语法分析器两部分组成。</a> <span class="g-font-color green">如图3-2所示：</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="160">160</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">图3-2 网页解析流程图</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="161">161</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/438.html' target='right' class='g-font-color orange'>如图3-2所示，网页解析器主要经过词法分析和语法分析。</a> <span class="g-font-color green">对由爬取模块爬取的每个网页，词法分析器对其进行分词，保存为一个个的词法单元。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="162">162</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/440.html' target='right' class='g-font-color orange'>然后语法分析器对词法单元进行语法分析，解析出其语法结构并保存起来。</a> <span class="g-font-color green">对于每个语法单元，语法分析器会调用一系列监听器来监听语法单元的内容。</span> <span class="g-font-color green">链接监听器会判断该语法单元是否是一个链接。</span> <span class="g-font-color green">如果是链接，就将其传给过滤模块以判断其是否和主题相关。</span> <span class="g-font-color green">对于其它的语法单元，语法分析器会解析出它的语法成分，以供以后的主题建模及模板匹配使用。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="163">163</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">由于现在的浏览器都有一定的容错性，所以很多网页的HTML源码虽能正确显示，但其中很多都有着一定的词法或语法错误。</span> <span class="g-font-color green">所以，如果要获得这些网页资源并抽取信息，自己实现的 HTML分析器就必须也得具备一定的容错能力，</span> <span class="g-font-color green">能在一定的错误范围内解析出源码相应正确的语法结构[19]。</span> <span class="g-font-color green">关于本文的HTML分析器如何实现容错功能，其具体算法在4.3.2节的分析算法中有详细说明。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="164">164</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.3 数据挖掘方法</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="165">165</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（1）受众群体特征分析（数据挖掘）</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="166">166</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">在进行特征分析时，采取 LBS（基于位置服务），基于对象成分划分等方式，针对异源多构的数据模型进行多种数据分类，</span> <span class="g-font-color green">采取有效的算法和优先级的调控，给出最合适的受众群体的选择。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="167">167</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">LBS（基于位置服务）特征分析。</span><a href='../sentence_detail/454.html' target='right' class='g-font-color red'> LBS（基于位置服务）是指通过电信移动运营商的无线电通讯网络或外部定位方式，获取移动终端用户的位置信息，</a><a href='../sentence_detail/455.html' target='right' class='g-font-color red'>在 GIS平台的支持下，为用户提供相应服务的一种增值业务。</a> <span class="g-font-color green">LBS的关键地方在于PaaS和BaaS的服务模式的有效结合，提供给用户更加吸引人的服务。</span> <span class="g-font-color green">在项目准时时期，我们经过长期的市场调研，发现了地域特征与用户群体之间存在的关系，根据不同特征的用户聚集，进行用户的特征分析。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="168">168</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">基于对象成分划分的特征分析。</span><a href='../sentence_detail/459.html' target='right' class='g-font-color red'>社会阶层是具有相同或类似社会地位的社会成员组成的相对持久的群体。</a> <span class="g-font-color green">研究发现，同属一个社会群体中的用户往往具有一些共同特征，比如经济消费能力，价值观念等等。</span> <span class="g-font-color green">我们采用的基于对象成分划分的特征分析，一定程度上是建立在不同群体所对应的不同消费能力与消费对象的基础上，进行的深入分析。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="169">169</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">（2）广告商特征分析（数据挖掘）</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="170">170</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">进行特征分析时，采取 LBS（基于位置服务），商业类型等方式，针对医院多购的数据模型进行多种数据分类，</span> <span class="g-font-color green">采取有效的算法和优先级的调控，给出最合适的广告商的选择。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="171">171</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">LBS（基于位置服务）特征分析。</span> <span class="g-font-color green">对于广告投放商来说，其所在的位置信息与投放广告形成的影响能力有着很大的关系。</span> <span class="g-font-color green">我们基于位置服务，对于广告投放商进行特征分析，根据投放商种类，建立足够的数据模型，</span> <span class="g-font-color green">可能优先选择投放地为投放商所在位置的周边地区，增强投放的有效性。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="172">172</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">商业类型特征分析。</span> <span class="g-font-color green">商业类型对于投放地有着很大的影响，比如，文教类产品在学术区的投放效果就会明显好于居住区。</span> <span class="g-font-color green">基于这种商业作用的直接模式，建立复杂的模型，完成商业类型的特征分析。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="173">173</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3.4 数据挖掘结果分析</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="174">174</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">目前已经完成了对搜房网房天下、安居客、焦点房地产网、365地产家居、吉屋网等国内排名前五的房产网站的数据爬取，</span> <span class="g-font-color green">数据量达20多 TB。</span> <span class="g-font-color green">对于爬取网站上楼盘信息进行了成分提取与多态化分析，为项目的开展奠定了良好的基础。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="175">175</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">图3-1  爬取数据统计图</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="176">176</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">通过分析得到国内大部分城市的房价分布，根据房价分布可以对房屋所属小区的档次做一个大致判断，然后再采集小区周围的一些地理特征。</span> <span class="g-font-color green">以武汉是年的房价分布为例，可以看出汉口平均房价高于其他几个地区的房价，分析其地理特征可以发现，</span> <span class="g-font-color green">汉口临江，并且还是武汉的金融、商业、贸易中心，地处繁华地带。</span> <span class="g-font-color green">由此我们可以初步判断，该片地区的人们的消费能力应该是普遍高于平均消费水平的。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="177">177</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">图3-2  武汉房价分布图</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="178">178</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">表格 3-1 武汉各小区房产信息表</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="179">179</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">序号字段名称</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="180">180</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">1Housename房屋名称</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="181">181</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">2totalprice总价</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="182">182</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">3housetype户型</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="183">183</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">4buildarea建筑面积</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="184">184</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">5unitprice单价</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="185">185</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">6faceat朝向</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="186">186</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">7floors楼层</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="187">187</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">8community_name小区名称</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="188">188</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">9detailaddress详细地址</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="189">189</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">10buildepoch建筑年代</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="190">190</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">11living_type住宅类型</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="191">191</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">12cmm_part_bool人车分流</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="192">192</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">13cmm_building_num总楼栋数</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="193">193</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">14cmm_totalpeople总户数</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="194">194</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                 <span class="g-font-color green">根据现有的信息，我们爬取了武汉市各个小区的主要信息，其中包括房屋名称，房屋总价，房屋户型，</span> <span class="g-font-color green">房屋建筑面积，房屋单价，房屋朝向，房屋楼层，小区名称，小区详细地址，小区建筑年代，小区住宅类型，</span> <span class="g-font-color green">小区内是否人车分流，小区内总楼栋数，小区内居住的总户数等基本信息。</span> <span class="g-font-color green">通过小区的分布情况和房价可以建立房价和区域之间的映射关系，进而通过房价可以刻画区域的广告价值。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+        
+        <div class="paper-section" tpl-section="warp">
+            <span class="label-warning" tpl-section="badge" data-id="195">195</span>
+            <p class="MT20 text-idt25" tpl-section="text">
+                <a href='../sentence_detail/502.html' target='right' class='g-font-color orange'>同时还对爬取的数据进行了分类，主要对地理要素POI分了12个大类。</a> <span class="g-font-color green">他们分别是交通设施（23131）、休闲娱乐（4352）、医疗（123）、房地产（435622）</span> <span class="g-font-color green">、政府机构（324）、教育培训（7534）、文化传媒（2435）、旅游景点（2453）</span> <span class="g-font-color green">、生活服务（235464）、美食（39845）、购物（32325）、酒店（2324）。</span>            </p>
+            <div class="text-right">
+                <button type="button" tpl-section="btn" class="g-btn g-btn-default g-btn-sm MT10">段落修改</button>
+            </div>
+            <div tpl-section="box"></div>
+        </div>
+            </div>
+    <div class="text-center PB30">
+        <ul class="pagination"><li><a href="paper_1.html"><span>首页</span></a></li>
+    <li><a href="paper_4.html"><span>上一页</span></a></li>
+    <li><a href="paper_6.html"><span>下一页</span></a></li>
+    <li><a href="paper_12.html"><span>尾页</span></a></li></ul>
+    <div class="ML15 inline-block v-top MT10">
+            页码
+            <span class="g-font-color green">5</span>/<span>12</span>
+            页
+        </div>    </div>
+    <div style="text-align: center;padding-top:30px">
+         <a href="http://www.118qikan.com/service?f=pp_report_section" target="_blank"><img src="http://file.paperpass.com/images/fabiao.jpg"/></a></div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2018 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/html" template="section">
+    <div class="text-right">
+        <div class="modifyTxt-notice">
+            修改完本段落之后，点击“临时保存”，之后可在上方导航“修改文档”页面中查看修改后的内容
+        </div>
+        <textarea class="form-control resize-none" rows="4" tpl-section="textarea"></textarea>
+        <div class="button-wrap MT10">
+            <button type="button" class="g-btn g-btn-default g-btn-sm red" tpl-section-cancle="btn">取消保存</button>
+            <button type="button" class="g-btn g-btn-default g-btn-sm" tpl-section-save="btn">临时保存</button>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    Report.report_id = '5af05890a83d1p08o';
+</script>
+<script type="text/javascript">
+    (function(System,$){
+
+        var sectionEdit = System.Paper.sectionEdit();
+        var sectionSave = System.Paper.sectionSave(null);
+        $(function(){
+            $(document).on('click','[tpl-section=btn]',function(){
+                sectionEdit.call(this);
+            });
+            $(document).on('click','[tpl-section-save=btn]',function(){
+                sectionSave.call(this);
+
+            });
+            $(document).on('click','[tpl-section-cancle=btn]',function(){
+                var $warp = $(this).closest('[tpl-section="warp"]');
+                $warp.find('[tpl-section="box"]').html('');
+            });
+
+
+        });
+    })(Report,jQuery);
+
+</script>
+</html>
